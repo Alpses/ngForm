@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngForm';
+  private title:string ;
+  private userName:string ;
+  constructor(){
+    this.title = 'ngForm';
+    this.userName = 'Jogn';
+  }
+
 }
