@@ -8,9 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   private title:string ;
   private userName:string ;
+  private userId:string ;
   constructor(){
     this.title = 'ngForm';
     this.userName = 'Jogn';
+    this.userId = 'Fire' ;
   }
 
 }
